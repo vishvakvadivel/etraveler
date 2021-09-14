@@ -1,0 +1,4 @@
+{% extends "layout.html" %} <!-- inherits from layout.html -->
+{% block content %} <!-- start of block -->
+{{table | safe}} <!-- javascript so that table variable from app is injected, and it is identified as safe -->
+{% endblock %} <!-- end of block -->

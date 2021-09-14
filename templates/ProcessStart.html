@@ -1,0 +1,54 @@
+{% extends "layout.html" %} <!-- inherits from layout.html -->
+{% block content %}  <!-- start of block content -->
+	<div class="content-section">
+		<form method="POST" action="">
+			{{  form.hidden_tag()  }} <!-- for secret key of app -->
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Please Enter Proper Process Info</legend> <!-- form title -->
+				<div class="form-group">
+					{{ form.workorder.label(class="form-control-label") }} <!-- creates field and label for work order -->
+					{{ form.workorder(class="form-control form-control-lg") }}
+				</div>
+				<div class="form-group">
+					{{ form.partnum.label(class="form-control-label") }}
+					{{ form.partnum(class="form-control form-control-lg") }}	<!-- creates field and label for part number -->
+				</div>
+				<div class="form-group">
+					{{ form.duedate.label(class="form-control-label") }}
+					{{ form.duedate(class="form-control form-control-lg") }}	<!-- creates field and label for due date -->
+				</div>
+				<div class="form-group">
+					{{ form.start.label(class="form-control-label") }} <!-- creates field and label for process step -->
+					{{ form.start(class="form-control form-control-lg") }}
+				</div>
+				<div class="form-group">
+					{{ form.starttrayqty.label(class="form-control-label") }} <!-- creates field and label for starting tray quantity -->
+					{{ form.starttrayqty(class="form-control form-control-lg") }}
+				</div>
+				<div class="form-group">
+					{{ form.endtray.label(class="form-control-label") }}
+					{{ form.endtray(class="form-control form-control-lg") }} <!-- creates field and form for ending tray quantity -->
+				</div>
+
+				<div class="form-group">
+					{{ form.barcodestart.label(class="form-control-label") }}
+					{{ form.barcodestart(class="form-control form-control-lg") }} <!-- creates field and label for  process step -->
+				</div>
+				<div class="form-group">
+					{{ form.operator.label(class="form-control-label") }}
+					{{ form.operator(class="form-control form-control-lg") }} <!-- creates field and label for operator -->
+				</div>
+				
+			</fieldset>
+
+			<div class="form-group">
+
+				{{ form.submit(class="btn btn-outline-info") }} <!-- submit button -->
+				
+			</div>
+
+		</form>
+	</div>
+	
+{% endblock %} <!-- end of block -->
+

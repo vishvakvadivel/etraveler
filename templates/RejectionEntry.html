@@ -1,0 +1,51 @@
+{% extends "layout.html" %} <!-- inherits from layout.html -->
+{% block content %}  <!-- start of block content -->
+	<div class="content-section">
+		<form method="POST" action="">
+			{{  form.hidden_tag()  }} <!-- for secret key of app -->
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Please Enter Rejection Data</legend> <!-- form title -->
+
+				<div class="form-group">
+					{{ form.wo.label(class="form-control-label") }}	<!-- creates field and label for work order -->
+					{{ form.wo(class="form-control form-control-lg") }}
+				</div>
+
+				<div class="form-group">
+					{{ form.pn.label(class="form-control-label") }} <!-- creates field and label for part number -->
+					{{ form.pn(class="form-control form-control-lg") }}
+				</div>
+				<div class="form-group">
+					{{ form.duedate.label(class="form-control-label") }} <!-- creates field and label for due date -->
+					{{ form.duedate(class="form-control form-control-lg") }}
+				</div>
+				
+				<div class="form-group">
+					{{ form.rejectionqty.label(class="form-control-label") }}
+					{{ form.rejectionqty(class="form-control form-control-lg") }} <!-- creates field and label for rejection quantity -->
+				</div>
+				<div class="form-group">
+					{{ form.rejectioncode.label(class="form-control-label") }}
+					{{ form.rejectioncode(class="form-control form-control-lg") }} <!-- creates field and label for rejection code -->
+				</div>
+				<div class="form-group">
+					{{ form.op.label(class="form-control-label") }}
+					{{ form.op(class="form-control form-control-lg") }} <!-- creates field and form for operator -->
+				</div>
+				<div class="form-group">
+					{{ form.step.label(class="form-control-label") }} <!-- creates field and label for process step -->
+					{{ form.step(class="form-control form-control-lg") }}
+				</div>
+
+			</fieldset>
+
+			<div class="form-group">
+
+				{{ form.submit(class="btn btn-outline-info") }} <!-- submit button -->
+				
+			</div>
+
+		</form>
+	</div>
+	
+{% endblock %} <!-- end of block -->

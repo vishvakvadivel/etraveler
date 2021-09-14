@@ -1,0 +1,95 @@
+WorkOrder,P_N,RejCode,Quantity,Operator,ProcessStep,Date,Due_Date
+Test-Vish,19204,Pinhole,6,Leo McGuire,PR Application,03/18/21,12/23/21
+Test-Vish1,19204,Spit,6,,PR Application,03/18/21,12/23/21
+Test-Vish3,19204,Pinhole,6,Bob Halliday,Softbake,03/18/21,12/23/21
+Test-Vish4,19477,Stain,6,Leo McGuire,Metalization,03/18/21,12/23/21
+50019294,19204,Stain,1,Tony Inthirath,Exposure,04/15/21,4/13/2021
+50019294,19507,Washed Area/Area with no Grating,1,Tony Inthirath,Exposure,04/15/21,4/13/2021
+50019244,19204,no resist/non-uniform resist,1,Chance Souvannadeth,Spin,04/19/21,5/3/2021
+50019246,19204,no resist/non-uniform resist,1,Chance Souvannadeth,Spin,04/19/21,5/3/2021
+50019293,19507,fails final test range-low,16,Leo McGuire,Final Efficiency Test,04/21/21,05/03/21
+50019228,49287,Stain,2,Rith Phal,Exposure,04/26/21,4/6/2021
+50019301,19363,Chips/Breakage,1,Rith Phal,Preclean,04/27/21,4/23/21
+50019230,49287,Stain,2,Rith Phal,Exposure,04/28/21,4/6/2021
+50019230,49287,fails process control range-deep,1,Rith Phal,Exposure,04/28/21,4/6/2021
+50019359,49540,green coat on front,2,,Antihalation,04/28/21,4/16/2021
+50019370,19204,green coat on front,4,,Antihalation,04/28/21,4/20/2021
+50019370,49540,green coat on front,4,,Antihalation,04/28/21,4/20/2021
+50019378,19507,Bottomed/Washed,6,Bob Halliday,Exposure,04/28/21,04/01/21
+50019231,49287,Stain,5,Rith Phal,Exposure,04/28/21,4/6/2021
+50019378,19507,fails process control range-deep,1,Bob Halliday,Exposure,04/28/21,04/01/21
+50019231,49287,fails process control range-deep,1,Rith Phal,Exposure,04/28/21,4/6/2021
+50019242,19204,Maggots,2,Tony Inthirath,Exposure,04/29/21,5/3/2021
+50019242,19204,Pinhole,1,Tony Inthirath,Exposure,04/29/21,05/03/21
+50019242,19204,no resist/non-uniform resist,1,Tony Inthirath,Exposure,04/29/21,05/03/21
+5001922950019228,49287,fails final test range-high,15,Bob Halliday,Final Efficiency Test,04/29/21,04/06/21
+50019228,49287,fails final test range-low,8,Bob Halliday,Final Efficiency Test,04/29/21,04/06/21
+50019228,49287,Engineering Experiments,1,Leo McGuire,PR Application,04/29/21,04/06/21
+50019228,49287,Comet,1,Bob Halliday,Final Efficiency Test,04/29/21,04/06/21
+50019228,49287,Comet,1,Bob Halliday,Final Efficiency Test,04/29/21,04/06/21
+50019245,19204,Pinhole,2,Tony Inthirath,Preliminary Cosmetic Inspection,04/29/21,5/3/2021
+50019231,49287,fails final test range-high,12,Bob Halliday,Final Efficiency Test,04/29/21,04/06/21
+50019243,19204,Pinhole,2,Tony Inthirath,Exposure,04/29/21,5/3/2021
+50019243,19204,Maggots,2,Tony Inthirath,Exposure,04/29/21,05/03/21
+50019247,19204,Maggots,1,Tony Inthirath,Exposure,04/29/21,5/3/2021
+50019247,19204,Pinhole,3,Tony Inthirath,Exposure,04/29/21,5/3/2021
+50019246,19204,Scratch,1,Tony Inthirath,Exposure,04/30/21,5/3/2021
+50019244,19204,Maggots,5,Tony Inthirath,Exposure,04/30/21,5/3/2021
+50019357,49540,green coat on front,1,Chance Souvannadeth,Exposure,04/30/21,4/16/2021
+50019359,49540,Stain,1,Chance Souvannadeth,Exposure,05/02/21,4/16/2021
+50019360,49540,Stain,1,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/02/21,4/16/2021
+50019360,49540,double exposed,1,Chance Souvannadeth,Exposure,05/02/21,4/16/2021
+50019361,49540,fails process control range-deep,1,Chance Souvannadeth,Exposure,05/02/21,4/16/2021
+50019370,49540,Stain,1,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/03/21,4/20/2021
+50019371,49540,green coat on front,3,,Antihalation,05/03/21,4/20/2021
+50019374,49540,green coat on front,4,,Antihalation,05/03/21,4/20/2021
+50019249,19204,Engineering Experiments,3,Tony Inthirath,Final Efficiency Test,05/04/21,4/7/2021
+50019249,19204,fails final test range-high,3,Tony Inthirath,Final Efficiency Test,05/04/21,4/7/2021
+50019250,19204,fails final test range-high,11,Tony Inthirath,Final Efficiency Test,05/04/21,4/7/2021
+50019300,19204,Bottomed/Washed,3,Tony Inthirath,Exposure,05/04/21,4/23/2021
+50019372,49540,Particulate,2,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/04/21,4/20/2021
+50019301,19204,Bottomed/Washed,8,Tony Inthirath,Exposure,05/04/21,4/23/2021
+50019301,19204,no resist/non-uniform resist,4,Tony Inthirath,Exposure,05/04/21,4/23/2021
+50019301,19204,Pinhole,4,Tony Inthirath,Exposure,05/04/21,4/23/2021
+50019373,49540,Stain,1,Chance Souvannadeth,Exposure,05/05/21,4/20/2021
+50019374,49540,Stain,2,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/05/21,4/20/2021
+50019375,49540,Stain,3,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/05/21,4/20/2021
+50019371,49540,Stain,2,Chance Souvannadeth,Preliminary Cosmetic Inspection,05/07/21,4/20/2021
+50019362,19477,Pinhole,1,Tony Inthirath,Exposure,05/11/21,4/6/2021
+50019362,19477,Bottomed/Washed,1,Tony Inthirath,Exposure,05/11/21,4/6/2021
+50019354,49431,fails final test range-high,13,Tony Inthirath,Final Efficiency Test,05/13/21,4/16/2021
+50019353,49431,fails final test range-high,7,Tony Inthirath,Final Efficiency Test,05/13/21,4/16/2021
+50019367,19477,Engineering Experiments,2,Tony Inthirath,Exposure,05/15/21,4/16/2021
+50019365,19477,Pinhole,3,Tony Inthirath,Exposure,05/15/21,4/16/2021
+50019366,19204,no resist/non-uniform resist,1,Tony Inthirath,Exposure,05/15/21,4/16/2021
+50019366,19477,Pinhole,1,Tony Inthirath,Exposure,05/15/21,4/16/2021
+50019366,19477,Bottomed/Washed,1,Tony Inthirath,Exposure,05/15/21,4/16/2021
+50019480,19554,Pinhole,2,Tony Inthirath,Exposure,05/16/21,5/10/2021
+50019480,19554,Vibration/Motion,3,Tony Inthirath,Exposure,05/16/21,5/10/2021
+50019480,19554,Bottomed/Washed,3,Tony Inthirath,Exposure,05/16/21,5/10/2021
+50019510,19363,Washed Area/Area with no Grating,4,Tony Inthirath,Exposure,05/24/21,5/17/2021
+50019511,19363,Stain,2,Tony Inthirath,Exposure,05/24/21,5/17/2021
+50019511,19363,Bottomed/Washed,2,Tony Inthirath,Exposure,05/24/21,5/10/2021
+Delme,60126,Equipment failure,2,Leo McGuire,Preclean,07/09/21,6/29/2021
+Delme,19204,metal coating error,2,Leo McGuire,Preclean,07/10/21,6/30/2021
+Delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/12/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/12/21,6/29/2021
+TestCase,19477,Chips/Breakage,2,Leo McGuire,PR Application,07/12/21,7/12/2021
+TestCase,19204,Engineering Experiments,7,Leo McGuire,Softbake,07/13/21,12-12-2022
+delme1,19204,Engineering Experiments,2,Leo McGuire,Softbake,07/13/21,6/29/2021
+delme1,19477,Engineering Experiments,2,,Antihalation,07/13/21,7/12/2021
+delme1,19204,Engineering Experiments,2,,Setup for Exposure,07/13/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Hot UV exposure,07/14/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Hot UV exposure,07/14/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Hot UV exposure,07/14/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/14/21,6/29/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/16/21,12-2-2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/16/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,07/16/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,08/06/21,6/29/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,Antihalation,08/10/21,7/12/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,Preclean,08/10/21,6/29/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,Preclean,08/15/21,7/12/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,PR Application,08/15/21,7/12/2021
+TestCase,19204,Engineering Experiments,2,Leo McGuire,PR Application,08/15/21,6/29/2021
+delme1,19204,Engineering Experiments,2,Leo McGuire,Preclean,08/18/21,7/12/2021
